@@ -1,4 +1,5 @@
-<B>House Revaluation App
+<B>House Revaluation App</B>
+
 A comprehensive Shiny web application that estimates house prices based on key property features, using machine learning models for accurate predictions.
 This app allows users to input property features such as location, square footage, number of bedrooms, and more to predict house prices.
 It provides an interactive interface, data preprocessing pipeline, and model deployment, making it an excellent tool for understanding housing price dynamics. 
