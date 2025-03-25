@@ -43,4 +43,4 @@ Model Deployment: Deployment: The app is deployed on shinyapps.io, allowing user
 Data Visualization: The app provides dynamic charts and graphs that showcase the relationship between different property features and their impact on price.
 These visualizations help users understand market trends, correlations, and patterns in the housing data.
 
-Live Demo: App URL: 
+Live Demo: App URL: https://sparas-pricepredx.netlify.app/
