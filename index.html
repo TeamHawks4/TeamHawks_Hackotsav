@@ -3,25 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>House Price Prediction & Real Estate Guide</title>
-
+    <title>House Price Prediction & Real Estate Guide | House PredX</title>
+    <meta name="description" content="Accurate house price predictions, real estate market insights, and property valuation tools for 2025">
+    
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    
     <!-- Custom CSS -->
     <link rel="stylesheet" href="Paraspage.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="https://img.icons8.com/color/48/000000/real-estate.png" type="image/png">
 </head>
 
-
 <body>
-
-    
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="navbar-container">
             <!-- Logo and Brand Name -->
-            <a href="#" class="navbar-brand">
-                <B>House PredX</B>
+            <a href="index.html" class="navbar-brand">
+                <i class="fas fa-home"></i>
+                <span><strong>House PredX</strong></span>
             </a>
     
-            <!-- Navbar Toggler -->
+            <!-- Mobile Menu Toggle -->
             <button class="navbar-toggler" aria-label="Toggle navigation">
+                <span class="toggler-icon"></span>
+                <span class="toggler-icon"></span>
                 <span class="toggler-icon"></span>
             </button>
     
@@ -29,176 +40,467 @@
             <div class="navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="#" class="nav-link active"><i class="fas fa-home"></i> Home</a>
                     </li>
     
                     <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle">Real Estate Documentation</a>
+                        <a href="#" class="nav-link dropdown-toggle">
+                            <i class="fas fa-file-alt"></i> Real Estate Documentation
+                        </a>
                         <ul class="dropdown-menu">
-                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQ-hsB4lFtfGfVeNrZLdnLHI9Hkwy_0bYYks_lTPq-f3rs4p-YRlXSfCnEqS8iJAFw53f1PlpnsDFP5/pub" target="_blank" class="dropdown-item" style="color: #cfe412">Understanding Market Trends</a></li>
-                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vRJFlyraqaLWnhp8eqC3Y6gFTEeY2DWtGa7kgSUDSfvTTaPQ54pMeDq44yzNNU7ujgdHWAY5PP4Atmv/pub" target="_blank" class="dropdown-item" style="color: #cfe412">Importance of Location</a></li>
-                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQIka9dW2GdWxvJomiNKDc_1bNXrSvKMiyqUOrC0l1vY0ErLEWT6ypaMU8Q-ABlmHdnlirAR4j1AUC0/pub" target="_blank" class="dropdown-item" style="color: #cfe412" >Property Valuation Guide</a></li>
-                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQrkAvG_yDej3YxosypiUsWBq2eYpbNYzbGDWgO_cwWhUQ2Z5ibaVwVTyL69OPZKud6-icOYWau2YZu/pub" target="_blank" class="dropdown-item" style="color: #cfe412" >Real Estate Markets 2025</a></li>
-                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQYdS5-WSb4XSVpPRdVb_8wQhDcrqVmJz4EL69pj4sMYBY04IIO6zsrWWWOyIm475LUVkqmVSz80qRZ/pub" target="_blank" class="dropdown-item" style="color: #cfe412" >Financing Your Property</a></li>
+                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQ-hsB4lFtfGfVeNrZLdnLHI9Hkwy_0bYYks_lTPq-f3rs4p-YRlXSfCnEqS8iJAFw53f1PlpnsDFP5/pub" target="_blank" class="dropdown-item"><i class="fas fa-chart-line"></i> Understanding Market Trends</a></li>
+                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vRJFlyraqaLWnhp8eqC3Y6gFTEeY2DWtGa7kgSUDSfvTTaPQ54pMeDq44yzNNU7ujgdHWAY5PP4Atmv/pub" target="_blank" class="dropdown-item"><i class="fas fa-map-marker-alt"></i> Importance of Location</a></li>
+                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQIka9dW2GdWxvJomiNKDc_1bNXrSvKMiyqUOrC0l1vY0ErLEWT6ypaMU8Q-ABlmHdnlirAR4j1AUC0/pub" target="_blank" class="dropdown-item"><i class="fas fa-dollar-sign"></i> Property Valuation Guide</a></li>
+                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQrkAvG_yDej3YxosypiUsWBq2eYpbNYzbGDWgO_cwWhUQ2Z5ibaVwVTyL69OPZKud6-icOYWau2YZu/pub" target="_blank" class="dropdown-item"><i class="fas fa-calendar-alt"></i> Real Estate Markets 2025</a></li>
+                            <li><a href="https://docs.google.com/document/d/e/2PACX-1vQYdS5-WSb4XSVpPRdVb_8wQhDcrqVmJz4EL69pj4sMYBY04IIO6zsrWWWOyIm475LUVkqmVSz80qRZ/pub" target="_blank" class="dropdown-item"><i class="fas fa-hand-holding-usd"></i> Financing Your Property</a></li>
                         </ul>
                     </li>
     
                     <li class="nav-item">
-                        <a href="#research-papers" class="nav-link">Research Papers</a>
+                        <a href="#research-papers" class="nav-link"><i class="fas fa-book-open"></i> Research Papers</a>
                     </li>
     
                     <li class="nav-item">
-                        <a href="#blog-section" class="nav-link">Daily Blog</a>
+                        <a href="#blog-section" class="nav-link"><i class="fas fa-blog"></i> Daily Blog</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="#real-estate-gallery" class="nav-link"><i class="fas fa-images"></i> Gallery</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
     
-                
-                <!-- Scroll code -->
-                    
-                <script>
-                    document.getElementById("researchPapersLink").addEventListener("click", function(event) {
-                        event.preventDefault();
-                        document.getElementById("research-papers").scrollIntoView({ behavior: "smooth" });
-                    });
-                </script>
-                
-
-                <script>
-                    document.getElementById("disableScroll").addEventListener("click", function(event) {
-                        event.preventDefault();
-                        document.getElementById("real-estate-gallery").scrollIntoView({ behavior: "smooth" });
-                    });
-                </script>
-
-                <script>
-                    document.getElementById("blogLink").addEventListener("click", function(event) {
-                        event.preventDefault();
-                        document.getElementById("blog-section").scrollIntoView({ behavior: "smooth" });
-                    });
-                </script>
-                
-            </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Smart Property Valuation for the Modern Market</h1>
+            <p>Accurate price predictions powered by advanced analytics and 2025 market trends</p>
+            <a href="https://aditya-kumar-roy.shinyapps.io/pricepredx/" target="_blank" class="hero-btn">Try Our Valuation Model</a>
         </div>
-    </nav>
+    </section>
     
     <!-- Main Content -->
     <div class="container main-content">
         <div class="left-side">
-            <div class="logo">
-                <img src="https://img.freepik.com/free-vector/logo-real-estate-home-solutions-that-is-home-solution_527952-33.jpg?t=st=1742305125~exp=1742308725~hmac=39a4ce26f372927113eb669e054bfe6c72c3ea814ca0c0d59685b4fae196629d&w=826" alt="Logo">
-            </div>
+            <div class="model-card">
+                <div class="logo">
+                    <img src="https://img.freepik.com/free-vector/logo-real-estate-home-solutions-that-is-home-solution_527952-33.jpg" alt="House PredX Logo">
+                </div>
 
-            <h1>House Price Prediction Model</h1>
-            <p>Click the link below to access the MVP Model:</p>
-            <a href="https://aditya-kumar-roy.shinyapps.io/pricepredx/" target="_blank" class="model-link">Go to Valuation Model</a>
-            <div class="footer-text">
-            <p>~By Team Hawks<br>All rights reserved</p>
+                <h1><i class="fas fa-chart-bar"></i> House Price Prediction Model</h1>
+                <p>Our advanced algorithm analyzes multiple factors to provide accurate property valuations for the 2025 market.</p>
+        
+                
+                <div class="features">
+                    <div class="feature">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant Results</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-chart-pie"></i>
+                        <span>Data-Driven</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>2025 Market Trends</span>
+                    </div>
+                </div>
+                
             </div>
-            
         </div>
 
         <div class="right-side">
-            <!-- Documentation Links -->
-
-
             <!-- Research Papers -->
-            <section id="research-papers">
-            <div class="section research-section">
-                <h2>Research Papers</h2>
-                <div class="research-papers">
-                    <a href="https://www.investopedia.com/mortgage/mortgage-rates/housing-market/" target="_blank" class="paper-link" style="color: #cfe412">Impact of Interest Rates on Real Estate</a>
-                    <a href="https://www.researchgate.net/publication/46214299_Developments_in_Urban_Housing_and_Property_Markets" target="_blank" class="paper-link" style="color: #cfe412">Urban Development and Property Prices</a>
-                    <a href="https://www.researchgate.net/publication/266675198_Background_paper_on_sustainable_housing_and_growth" target="_blank" class="paper-link" style="color: #cfe412">Sustainable housing and growth</a>
-                    <a href="https://www.researchgate.net/publication/379750002_A_Study_on_Indian_Real_Estate_Market_and_Investment_in_Real_Estate" target="_blank" class="paper-link" style="color: #cfe412">Real Estate Investment Strategies</a>
+            <section id="research-papers" class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-graduation-cap"></i> Research Papers</h2>
+                    <p>Explore the latest academic research influencing today's real estate market</p>
                 </div>
-            </div>
+                <div class="research-papers">
+                    <a href="https://www.investopedia.com/mortgage/mortgage-rates/housing-market/" target="_blank" class="paper-card">
+                        <i class="fas fa-percentage"></i>
+                        <span>Impact of Interest Rates on Real Estate</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                    <a href="https://www.researchgate.net/publication/46214299_Developments_in_Urban_Housing_and_Property_Markets" target="_blank" class="paper-card">
+                        <i class="fas fa-city"></i>
+                        <span>Urban Development and Property Prices</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                    <a href="https://www.researchgate.net/publication/266675198_Background_paper_on_sustainable_housing_and_growth" target="_blank" class="paper-card">
+                        <i class="fas fa-leaf"></i>
+                        <span>Sustainable Housing and Growth</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                    <a href="https://www.researchgate.net/publication/379750002_A_Study_on_Indian_Real_Estate_Market_and_Investment_in_Real_Estate" target="_blank" class="paper-card">
+                        <i class="fas fa-hand-holding-usd"></i>
+                        <span>Real Estate Investment Strategies</span>
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
             </section>
 
-            <!-- Power Bi -->
-            <div class="dashboard">
-                <!-- Header -->
-                <header class="header">
-                    <h1>Analytics Dashboard</h1>
-                
-                    <aside>
-                        <nav>
-                            <ul>
-                                <li><a href="https://drive.google.com/file/d/1TPvN0zly_SRFbw8f9tK8JrxqYrsAWBKl/view?usp=drive_link" target="_blank" data-content="reports">Price variation based on size</a></li>
-                                <li><a href="https://drive.google.com/file/d/15JPsNWU0-QekUFwgmoLlkr9FlPYPhVxO/view?usp=drive_link" target="_blank" data-content="analytics"> Based on Area</a></li>
-                                <li><a href="https://drive.google.com/file/d/12kXVYegZ74KBFjLx0dEXtgW1KX6SZaNG/view?usp=drive_link" target="_blank" data-content="dashboard">Living and Kitchen qual.</a></li>
-                                <li><a href="https://drive.google.com/file/d/1h5QvHwclv-GPO34jKbytnJocku0bFQy0/view?usp=drive_link" target="_blank" data-content="settings">Garage type and Area</a></li>
-                            </ul>
-                        </nav>
-                    </aside>
-                </header>
-            </div>
-
-
-            <!-- Real Estate Gallery -->
-            <section id="real-estate-gallery">
-            <div class="section gallery-section">
-                <h2>Real Estate Gallery</h2>
-                <div class="gallery">
-                    <button class="scroll-button left-button" onclick="scrollGallery(-1)">&#10094;</button>
-                    <div class="gallery-images">
-                        <img src="https://i.pinimg.com/736x/ea/1f/ec/ea1fec11513594ff127c3cb09221c85e.jpg" alt="Flat 1" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/e6/15/be/e615be854aa2e2f8c66ad17b572b979c.jpg" alt="Flat 2" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/db/ef/12/dbef1261f45448d9ad161f50a5e1bf43.jpg" alt="Flat 3" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/d3/68/fb/d368fbb96329d4e26e8b683617c2cd52.jpg" alt="Flat 4" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/05/6e/7c/056e7c50c52b4c6d8ad9af4fbec72a68.jpg" alt="Flat 5" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/da/a2/ad/daa2ad7cdd170dff96dd7f24f08a2dc5.jpg" alt="Flat 6" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/bf/22/47/bf22475f3cc41e92ccca5420f719d168.jpg" alt="Flat 7" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/94/eb/28/94eb28af5183b0af1b02780553e44ac6.jpg" alt="Flat 8" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/fc/38/13/fc3813852a3daf5b43ab51c3b609e36d.jpg" alt="Flat 9" onclick="openModal(this)">
-                        <img src="https://i.pinimg.com/736x/0e/39/6a/0e396ac6a26c99cf2fb1e9785e97c1cd.jpg" alt="Flat 10" onclick="openModal(this)">
-                    </div>
-                    <button class="scroll-button right-button" onclick="scrollGallery(1)">&#10095;</button>
+            <!-- Analytics Dashboard -->
+            <div class="section-card dashboard">
+                <div class="section-header">
+                    <h2><i class="fas fa-chart-line"></i> Analytics Dashboard</h2>
+                    <p>Interactive visualizations of key real estate metrics and trends</p>
+                </div>
+                <div class="dashboard-cards">
+                    <a href="https://drive.google.com/file/d/1TPvN0zly_SRFbw8f9tK8JrxqYrsAWBKl/view?usp=drive_link" target="_blank" class="dashboard-card">
+                        <i class="fas fa-ruler-combined"></i>
+                        <h3>Price Variation by neighbour</h3>
+                        <p>See how property size affects valuation</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/15JPsNWU0-QekUFwgmoLlkr9FlPYPhVxO/view?usp=drive_link" target="_blank" class="dashboard-card">
+                        <i class="fas fa-map-marked-alt"></i>
+                        <h3>Price by Area</h3>
+                        <p>Geographical price distribution</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/12kXVYegZ74KBFjLx0dEXtgW1KX6SZaNG/view?usp=drive_link" target="_blank" class="dashboard-card">
+                        <i class="fas fa-utensils"></i>
+                        <h3>Living & Kitchen Quality</h3>
+                        <p>How amenities affect value</p>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1h5QvHwclv-GPO34jKbytnJocku0bFQy0/view?usp=drive_link" target="_blank" class="dashboard-card">
+                        <i class="fas fa-warehouse"></i>
+                        <h3>Garage Type & Area</h3>
+                        <p>Parking space impact on price</p>
+                    </a>
                 </div>
             </div>
-        </section>
-            <!-- Dynamic Blog Space -->
-            <section id="blog-section">
-                <div class="section blog-section">
-                    <h2>Blog</h2>
-                    <div class="blog-container"> <!-- Added a container for the scrolling effect -->
-                        <div class="blog-content">
-                            <p>......Paras......</p>
-                            <p>As we progress through 2025, the real estate market is undergoing significant transformations influenced by economic shifts, technological advancements, and evolving consumer preferences. Here's an overview of the current landscape:
-                                <br>
-                                <br>
-                                <B>Market Dynamics</B><br>
-                                In February 2025, U.S. existing-home sales experienced a 4.2% increase, surpassing expectations and marking the first rise in two months. The national median existing-home price reached $398,400, the highest on record for February. Despite these gains, affordability remains a concern due to elevated home prices and mortgage rates hovering between 6% and 7%. 
-                                <a href="https://www.wsj.com/economy/housing/home-sales-february-2025-rise-f17edbfd?utm_source" target="_blank" class="doc-link" style="color: #cfe412;"> WSL</a>
-                                <br><br>
-                                <B>Technological Integration</B><br>
-                                The integration of technology continues to reshape the real estate sector. Virtual tours, artificial intelligence-driven property recommendations, and blockchain transactions are becoming standard, enhancing the efficiency and transparency of buying and selling processes. 
-                                <a href="https://spotypremium.com/real-estate/?utm_source" target="_blank" class="doc-link" style="color: #cfe412;">SPOTY PREMIUM</a>
-                                <br><br>
-                                <B>Sustainability and Green Building</B><br>
-                                Environmental consciousness is now a priority for buyers and builders alike, with sustainability taking center stage in 2025. Developers are increasingly adopting eco-friendly materials, energy-efficient systems, and green building practices to meet consumer demand and comply with new regulations. 
-                                <a href="https://theleslieclarketeam.com/blog/real-estate-trends-for-2025?utm_source" target="_blank" class="doc-link" style="color: #cfe412;">LESLIE CLARKE TEAM</a>
-                                <br><br>
-                                <B>Regional Variations</B><br>
-                                The real estate landscape in 2025 varies significantly across different regions, influenced by local economic conditions, job opportunities, and living costs. For instance, areas that have experienced rapid price increases in the past may see a stabilization or slight decline as affordability issues curb demand. Conversely, regions with lower living costs and growing job markets might attract more residents, potentially driving up home values in those areas. 
-                                <a href="https://www.geoffgoodsell.com/blog/realestatetrends2025?utm_source" target="_blank" class="doc-link" style="color: #cfe412;">GEOFF GOODSELL, MBA</a>
-                                <br><br>
-                                <B>Investment Opportunities</B><br>
-                                For investors, the 2025 market presents both challenges and opportunities. With mortgage rates on a gradual decline, strategies such as long-term rentals, fix-and-flip projects, and investing in commercial real estate sectors like warehouses and distribution centers are gaining traction. Additionally, Real Estate Investment Trusts (REITs) offer a more passive investment approach, benefiting from stabilizing property values. 
-                                <a href="https://echomecollective.com/blog/2025-Real-Estate-Trends?utm_source" target="_blank" class="doc-link" style="color: #cfe412;">EMERALD COAST HOMES</a>
-                                <br><br>
-                                In conclusion, the 2025 real estate market is characterized by a blend of technological innovation, sustainable practices, and shifting economic factors. Staying informed and adaptable is crucial for buyers, sellers, and investors navigating this evolving landscape.</p>
+
+            <!-- Real Estate Gallery -->
+            <section id="real-estate-gallery" class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-images"></i> Property Gallery</h2>
+                    <p>Explore beautiful properties from around the world</p>
+                </div>
+                <div class="gallery-container">
+                    <button class="scroll-button left-button" onclick="scrollGallery(-1)" aria-label="Scroll left">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="gallery-track">
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/ea/1f/ec/ea1fec11513594ff127c3cb09221c85e.jpg" alt="Modern Apartment" onclick="openModal(this)">
+                            <div class="img-caption">Modern Apartment</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/e6/15/be/e615be854aa2e2f8c66ad17b572b979c.jpg" alt="Luxury Villa" onclick="openModal(this)">
+                            <div class="img-caption">Luxury Villa</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/db/ef/12/dbef1261f45448d9ad161f50a5e1bf43.jpg" alt="City Penthouse" onclick="openModal(this)">
+                            <div class="img-caption">City Penthouse</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/d3/68/fb/d368fbb96329d4e26e8b683617c2cd52.jpg" alt="Suburban Home" onclick="openModal(this)">
+                            <div class="img-caption">Suburban Home</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/05/6e/7c/056e7c50c52b4c6d8ad9af4fbec72a68.jpg" alt="Beachfront Property" onclick="openModal(this)">
+                            <div class="img-caption">Beachfront Property</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/da/a2/ad/daa2ad7cdd170dff96dd7f24f08a2dc5.jpg" alt="Modern Luxury" onclick="openModal(this)">
+                            <div class="img-caption">Modern Luxury</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/bf/22/47/bf22475f3cc41e92ccca5420f719d168.jpg" alt="Urban Loft" onclick="openModal(this)">
+                            <div class="img-caption">Urban Loft</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/94/eb/28/94eb28af5183b0af1b02780553e44ac6.jpg" alt="Moduler Kitchen" onclick="openModal(this)">
+                            <div class="img-caption">Moduler Kitchen</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/fc/38/13/fc3813852a3daf5b43ab51c3b609e36d.jpg" alt="Minimalist Apartment" onclick="openModal(this)">
+                            <div class="img-caption">Minimalist Apartment</div>
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.pinimg.com/736x/0e/39/6a/0e396ac6a26c99cf2fb1e9785e97c1cd.jpg" alt="Luxury Condo" onclick="openModal(this)">
+                            <div class="img-caption">Luxury Condo</div>
                         </div>
                     </div>
+                    <button class="scroll-button right-button" onclick="scrollGallery(1)" aria-label="Scroll right">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                <div class="gallery-indicators">
+                    <!-- Indicators will be added by JavaScript -->
+                </div>
+            </section>
+            
+            <!-- Blog Section -->
+            <section id="blog-section" class="section-card">
+                <div class="section-header">
+                    <h2><i class="fas fa-newspaper"></i> Market Insights through web</h2>
+                    <p>Latest trends and analysis in the 2025 real estate market</p>
+                </div>
+                <div class="blog-container">
+                    <article class="blog-post">
+                        <div class="blog-header">
+                            <h3>2025 Real Estate Market Overview</h3>
+                            <div class="blog-meta">
+                                <span><i class="far fa-calendar-alt"></i> March 28, 2025</span>
+                                <span><i class="far fa-clock"></i> 5 min read</span>
+                            </div>
+                        </div>
+                        <div class="blog-content">
+                            <p>As we progress through 2025, the real estate market is undergoing significant transformations influenced by economic shifts, technological advancements, and evolving consumer preferences.</p>
+                            
+                            <section class="blog-section">
+                                <h4><i class="fas fa-chart-line"></i> Market Dynamics</h4>
+                                <p>In February 2025, U.S. existing-home sales experienced a 4.2% increase, surpassing expectations and marking the first rise in two months. The national median existing-home price reached $398,400, the highest on record for February. Despite these gains, affordability remains a concern due to elevated home prices and mortgage rates hovering between 6% and 7%.</p>
+                                <a href="https://www.wsj.com/economy/housing/home-sales-february-2025-rise-f17edbfd?utm_source" target="_blank" class="blog-link">Read more on WSJ <i class="fas fa-external-link-alt"></i></a>
+                            </section>
+                            
+                            <section class="blog-section">
+                                <h4><i class="fas fa-robot"></i> Technological Integration</h4>
+                                <p>The integration of technology continues to reshape the real estate sector. Virtual tours, artificial intelligence-driven property recommendations, and blockchain transactions are becoming standard, enhancing the efficiency and transparency of buying and selling processes.</p>
+                                <a href="https://spotypremium.com/real-estate/?utm_source" target="_blank" class="blog-link">Tech innovations in real estate <i class="fas fa-external-link-alt"></i></a>
+                            </section>
+                            
+                            <section class="blog-section">
+                                <h4><i class="fas fa-recycle"></i> Sustainability and Green Building</h4>
+                                <p>Environmental consciousness is now a priority for buyers and builders alike, with sustainability taking center stage in 2025. Developers are increasingly adopting eco-friendly materials, energy-efficient systems, and green building practices to meet consumer demand and comply with new regulations.</p>
+                                <a href="https://theleslieclarketeam.com/blog/real-estate-trends-for-2025?utm_source" target="_blank" class="blog-link">Green building trends <i class="fas fa-external-link-alt"></i></a>
+                            </section>
+                            
+                            <section class="blog-section">
+                                <h4><i class="fas fa-globe-americas"></i> Regional Variations</h4>
+                                <p>The real estate landscape in 2025 varies significantly across different regions, influenced by local economic conditions, job opportunities, and living costs. For instance, areas that have experienced rapid price increases in the past may see a stabilization or slight decline as affordability issues curb demand.</p>
+                                <a href="https://www.geoffgoodsell.com/blog/realestatetrends2025?utm_source" target="_blank" class="blog-link">Regional market analysis <i class="fas fa-external-link-alt"></i></a>
+                            </section>
+                            
+                            <section class="blog-section">
+                                <h4><i class="fas fa-piggy-bank"></i> Investment Opportunities</h4>
+                                <p>For investors, the 2025 market presents both challenges and opportunities. With mortgage rates on a gradual decline, strategies such as long-term rentals, fix-and-flip projects, and investing in commercial real estate sectors like warehouses and distribution centers are gaining traction.</p>
+                                <a href="https://echomecollective.com/blog/2025-Real-Estate-Trends?utm_source" target="_blank" class="blog-link">Investment strategies <i class="fas fa-external-link-alt"></i></a>
+                            </section>
+                            
+                            <div class="blog-footer">
+                                <div class="blog-tags">
+                                    <span class="tag">#MarketTrends</span>
+                                    <span class="tag">#2025Forecast</span>
+                                    <span class="tag">#RealEstate</span>
+                                </div>
+                                <button class="share-btn"><i class="fas fa-share-alt"></i> Share</button>
+                            </div>
+                        </div>
+                    </article>
                 </div>
             </section>
         </div>
     </div>
-
+    
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="footer-logo">
+                    <i class="fas fa-home"></i>
+                    <span>House PredX</span>
+                </a>
+                <p>Advanced property valuation and market analysis tools for the modern real estate professional.</p>
+                <div class="social-links">
+                    <a href="https://github.com/TeamHawks4" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/paras-shingote/" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/paras_074/" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                    <li><a href="#research-papers"><i class="fas fa-chevron-right"></i> Research</a></li>
+                    <li><a href="#real-estate-gallery" ><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                    <li><a href="#blog-section"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="https://aditya-kumar-roy.shinyapps.io/pricepredx/" target="_blank"><i class="fas fa-chevron-right"></i> Valuation Model</a></li>
+                    <li><a href="https://docs.google.com/document/d/e/2PACX-1vQrkAvG_yDej3YxosypiUsWBq2eYpbNYzbGDWgO_cwWhUQ2Z5ibaVwVTyL69OPZKud6-icOYWau2YZu/pub" target="_blank"><i class="fas fa-chevron-right"></i> Market Reports</a></li>
+                    <li><a href="https://www.researchgate.net/publication/379750002_A_Study_on_Indian_Real_Estate_Market_and_Investment_in_Real_Estate" target="_blank"><i class="fas fa-chevron-right"></i> Investment Guides(Research Paper)</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-envelope"></i> teamhawks4.official@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 9322136938</p>
+                <p><i class="fas fa-map-marker-alt"></i> Nagpur, Maharshtra</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 House PredX. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <p>Created with <i class="fas fa-heart"></i> by Team Hawks</p>
+        </div>
+    </footer>
+    
+    <!-- Back to Top Button -->
+    <button id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
     
     <!-- Custom JS -->
     <script src="Paraspage.js"></script>
+    
+    <script>
+        // Enhanced JavaScript for better user experience
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for all anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+            
+            // Back to top button
+            const backToTopButton = document.getElementById('backToTop');
+            window.addEventListener('scroll', function() {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.style.display = 'block';
+                } else {
+                    backToTopButton.style.display = 'none';
+                }
+            });
+            
+            backToTopButton.addEventListener('click', function() {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Mobile menu toggle
+            const navbarToggler = document.querySelector('.navbar-toggler');
+            const navbarCollapse = document.querySelector('.navbar-collapse');
+            
+            navbarToggler.addEventListener('click', function() {
+                navbarCollapse.classList.toggle('show');
+                this.classList.toggle('active');
+            });
+            
+            // Close mobile menu when clicking on a link
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', function() {
+                    navbarCollapse.classList.remove('show');
+                    navbarToggler.classList.remove('active');
+                });
+            });
+            
+            // Add active class to current section in viewport
+            const sections = document.querySelectorAll('section');
+            window.addEventListener('scroll', function() {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - 300)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+                
+                document.querySelectorAll('.nav-link').forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.add('active');
+                    }
+                });
+            });
+            
+            // Initialize gallery indicators
+            const galleryTrack = document.querySelector('.gallery-track');
+            const gallerySlides = document.querySelectorAll('.gallery-slide');
+            const indicatorsContainer = document.querySelector('.gallery-indicators');
+            
+            gallerySlides.forEach((slide, index) => {
+                const indicator = document.createElement('span');
+                indicator.classList.add('indicator');
+                indicator.addEventListener('click', () => {
+                    scrollGalleryToIndex(index);
+                });
+                indicatorsContainer.appendChild(indicator);
+            });
+            
+            // Update indicators on scroll
+            galleryTrack.addEventListener('scroll', function() {
+                const scrollPosition = galleryTrack.scrollLeft;
+                const slideWidth = galleryTrack.clientWidth;
+                const currentIndex = Math.round(scrollPosition / slideWidth);
+                
+                document.querySelectorAll('.indicator').forEach((indicator, index) => {
+                    if (index === currentIndex) {
+                        indicator.classList.add('active');
+                    } else {
+                        indicator.classList.remove('active');
+                    }
+                });
+            });
+            
+            // Set first indicator as active initially
+            if (indicatorsContainer.firstChild) {
+                indicatorsContainer.firstChild.classList.add('active');
+            }
+        });
+        
+        function scrollGalleryToIndex(index) {
+            const galleryTrack = document.querySelector('.gallery-track');
+            const slideWidth = galleryTrack.clientWidth;
+            galleryTrack.scrollTo({
+                left: slideWidth * index,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Existing gallery functions
+        function scrollGallery(direction) {
+            const gallery = document.querySelector('.gallery-track');
+            const scrollAmount = gallery.clientWidth * direction;
+            gallery.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+        
+        function openModal(img) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            const captionText = document.getElementById('caption');
+            
+            modal.style.display = "block";
+            modalImg.src = img.src;
+            captionText.innerHTML = img.alt;
+            
+            // Close modal when clicking outside the image
+            modal.addEventListener('click', function(e) {
+                if (e.target === modal) {
+                    closeModal();
+                }
+            });
+        }
+        
+        function closeModal() {
+            document.getElementById('imageModal').style.display = "none";
+        }
+    </script>
 </body>
 </html>
